@@ -1,1 +1,15 @@
 
+{
+  "name": "test-ai-features",
+  "version": "1.0.0",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "langchain": "^0.3.0",
+    "anthropic": "^0.1.0",
+    "@langchain/openai": "^0.3.0",
+    "face-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "tensorflow": "^1.0.0"
+  }
+}
