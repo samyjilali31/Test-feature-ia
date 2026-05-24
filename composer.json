@@ -1,2 +1,22 @@
-openai
-langchain
+{
+  "name": "my-ai-saas/project",
+  "description": "Exemple de projet PHP avec IA",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "openai-php/client": "^0.8.0",
+    "anthropic/anthropic-sdk-php": "^0.4.0",
+    "google-gemini-php/client": "^1.0",
+    "symfony/http-client": "^7.1",
+    "psr/log": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0",
+    "symfony/var-dumper": "^7.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  }
+}
